@@ -1,0 +1,50 @@
+.components-container{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+    border: 1px solid ;
+    border-radius: 0.5rem;
+    background-position: center;
+    background-image: url('./public/beautiful-shot-greenery-bridge-forest-perfect-background_1167407-17.avif');
+    background-size: cover;
+    width: 1000px;
+    box-shadow: 0 0 0.25rem gray;
+}
+
+.title{
+    background-color: black;
+    font-size : xx-large;
+    color : white;
+    width: max-content;
+    border-radius: 10px;
+    padding: 0.5rem;
+    margin: auto;
+  }
+
+  .student-name{
+    background-color: black;
+    font-size : x-large;
+    color : white;
+    width: max-content;
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+    padding: 0.5rem;
+  }
+  
+  .CTA-container{
+    display: grid;
+    gap: 0.5 rem;
+    grid-template-columns: 1fr 2fr;
+    justify-content: space-between;
+    padding: 0.5rem 0.5rem 0rem 0.5rem;
+    margin: 1rem auto;
+    text-align: center;
+  }
+  
+  .ADD-smt{
+    padding-right: 0.5rem ;
+  }
+  
+  
