@@ -1,5 +1,5 @@
 import './Home.css'
-
+import proflie from '../../../public/image.png'
 function Home() {
     return ( 
     <div className='home-container1'>
@@ -8,7 +8,9 @@ function Home() {
         <div className="box1">
         <h1>Introduce myself</h1>
         <span>
-          <div className="home-image"></div>
+          <div className="home-image">
+            <img src={proflie} alt="profile" />
+          </div>
           <div className="home-text">
             <h2 className="home-title">
             </h2>
